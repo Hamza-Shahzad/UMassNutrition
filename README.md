@@ -15,3 +15,9 @@ Our ambitious goal of creating a single app within 36 hours was realized to be a
 ## Aftermath
 
 There was a lot learned within this small but ambitious project, namely time management skills, having realistic expectations, along with more technical aspects such as python skills and getting familiar with Android development. We hope to continue to develop this side project and make it a useful tool for students and the Nutrition department. 
+
+## Contact Us!
+
+![Hamza (https://www.linkedin.com/in/hamza-s-313906140/)](https://github.com/Hamza-Shahzad/UMassNutrition/blob/master/za.png)
+
+![Aidan (https://www.linkedin.com/in/aidan-campbell-193622195/)](https://github.com/Hamza-Shahzad/UMassNutrition/blob/master/aidan.png)
