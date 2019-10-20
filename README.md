@@ -18,6 +18,6 @@ There was a lot learned within this small but ambitious project, namely time man
 
 ## Contact Us!
 
-[!Hamza [(https://www.linkedin.com/in/hamza-s-313906140/)]](https://github.com/Hamza-Shahzad/UMassNutrition/blob/master/za.png)
+![Hamza(https://www.linkedin.com/in/hamza-s-313906140/)](https://github.com/Hamza-Shahzad/UMassNutrition/blob/master/za.png)
 
-[!Aidan [(https://www.linkedin.com/in/aidan-campbell-193622195/)]](https://github.com/Hamza-Shahzad/UMassNutrition/blob/master/aidan.png)
+![Aidan(https://www.linkedin.com/in/aidan-campbell-193622195/)](https://github.com/Hamza-Shahzad/UMassNutrition/blob/master/aidan.png)
