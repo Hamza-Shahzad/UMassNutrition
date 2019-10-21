@@ -37,31 +37,35 @@ woofood = woosoup.findAll(class_='lightbox-nutrition')
 with open('foodList.csv', 'w') as csv_file:
     csv_writer = writer(csv_file)
     
-    headers = ['Dining Common', 'Food', 'Calories', 'Ingredients']
+    headers = ['Dining Common', 'Food', 'Calories', 'Fat in Grams', 'Ingredients']
     
     csv_writer.writerow(headers)
     
     for food in berkfood:
         name = food.contents[0].contents
         cal = food.contents[0].get('data-calories')
+        fat = food.contents[0].get('data-total-fat')
         ingredients = food.contents[0].get('data-ingredient-list')
-        csv_writer.writerow(['Berkshire DC', name, cal, ingredients])
+        csv_writer.writerow(['Berkshire DC', name, cal, fat, ingredients])
         
     for food in hampfood:
         name = food.contents[0].contents
         cal = food.contents[0].get('data-calories')
+        fat = food.contents[0].get('data-total-fat')
         ingredients = food.contents[0].get('data-ingredient-list')
-        csv_writer.writerow(['Hampshire DC', name, cal, ingredients])
+        csv_writer.writerow(['Hampshire DC', name, cal, fat, ingredients])
         
     for food in frankfood:
         name = food.contents[0].contents
         cal = food.contents[0].get('data-calories')
+        fat = food.contents[0].get('data-total-fat')
         ingredients = food.contents[0].get('data-ingredient-list')
-        csv_writer.writerow(['Franklin DC', name, cal, ingredients])
+        csv_writer.writerow(['Franklin DC', name, cal, fat, ingredients])
         
     for food in woofood:
         name = food.contents[0].contents
         cal = food.contents[0].get('data-calories')
+        fat = food.contents[0].get('data-total-fat')
         ingredients = food.contents[0].get('data-ingredient-list')
-        csv_writer.writerow(['Worcester DC', name, cal, ingredients])
+        csv_writer.writerow(['Worcester DC', name, cal, fat, ingredients])
         
